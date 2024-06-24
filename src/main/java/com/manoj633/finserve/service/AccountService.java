@@ -6,4 +6,6 @@ import com.manoj633.finserve.entity.Account;
 public interface AccountService {
 
     AccountDto createAccount(AccountDto accountDto);
+
+    AccountDto getAccountById(Long id);
 }
